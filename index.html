@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BacPrep – Materiale Bacalaureat</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-inner">
+      <div class="logo">Bac<span>Prep</span></div>
+      <nav>
+        <a href="#materiale">Materiale</a>
+        <a href="#despre">Despre</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg-text">BAC</div>
+    <div class="hero-content">
+      <div class="badge">Gratuit · Complet · Actualizat</div>
+      <h1>Tot ce ai nevoie<br /><em>pentru Bacalaureat</em></h1>
+      <p>Comentarii literare, variante rezolvate și materiale sinteză pentru Română, Matematică și Informatică — toate într-un singur loc.</p>
+      <a href="#materiale" class="btn-primary">Vezi materialele →</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat" id="stat-materiale">
+        <span class="stat-num">0</span>
+        <span class="stat-label">Materiale</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">3</span>
+        <span class="stat-label">Materii</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">100%</span>
+        <span class="stat-label">Gratuit</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- MATERIALE -->
+  <section class="materiale-section" id="materiale">
+    <div class="container">
+      <h2 class="section-title">Materiale disponibile</h2>
+
+      <!-- FILTRE -->
+      <div class="filters" id="filters">
+        <button class="filter-btn active" data-filter="toate">Toate</button>
+        <button class="filter-btn" data-filter="romana">Română</button>
+        <button class="filter-btn" data-filter="matematica">Matematică</button>
+        <button class="filter-btn" data-filter="informatica">Informatică</button>
+      </div>
+
+      <!-- GRID CARDURI -->
+      <div class="grid" id="grid"></div>
+
+      <div class="empty-state" id="empty-state" style="display:none">
+        <p>Niciun material găsit pentru această materie.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DESPRE -->
+  <section class="despre" id="despre">
+    <div class="container despre-inner">
+      <div class="despre-text">
+        <h2>De ce BacPrep?</h2>
+        <p>Am creat acest site pentru că știm cât de greu e să găsești materiale de calitate, organizate și gratuite înainte de bacalaureat. Toate fișierele sunt verificate și actualizate constant.</p>
+        <p>Ai un material util pe care vrei să îl contribui? Scrie-ne!</p>
+      </div>
+      <div class="despre-card">
+        <div class="despre-icon">📚</div>
+        <p>Site creat de elevi,<br /><strong>pentru elevi.</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <span class="logo-sm">Bac<span>Prep</span></span>
+      <p>© 2025 BacPrep · Mult succes la bacalaureat! 🎓</p>
+    </div>
+  </footer>
+
+  <script src="materiale.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
