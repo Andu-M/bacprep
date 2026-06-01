@@ -23,25 +23,18 @@ const MATERIALE = [
 
   // ── ROMÂNĂ ───────────────────────────────────────────────────
   {
-    titlu: "Comentariu – Moara cu Noroc (Ioan Slavici)",
+    titlu: "Comentariu – Moara cu Noroc (Ioan Slavici) + Caracterizare",
     materie: "romana",
     tip: "Comentariu",
     descriere: "Analiză completă cu toate temele și motivele literare pentru subiectul al III-lea.",
-    link: "https://drive.google.com/file/d/INLOCUIESTE_CU_ID-UL_TAU/view"
+    link: "fisiere/romana/Moara_cu_noroc.docx"
   },
   {
-    titlu: "Comentariu – Ion (Liviu Rebreanu)",
+    titlu: "Comentariu – Ion (Liviu Rebreanu) + Caracterizare",
     materie: "romana",
     tip: "Comentariu",
     descriere: "Personaje, conflicte, simboluri și relații. Tot ce apare la subiectul al III-lea.",
-    link: "https://drive.google.com/file/d/INLOCUIESTE_CU_ID-UL_TAU/view"
-  },
-  {
-    titlu: "Figuri de stil – Fișă sinteză",
-    materie: "romana",
-    tip: "Sinteză",
-    descriere: "Toate figurile de stil cu definiții și exemple pentru subiectul I.",
-    link: "https://drive.google.com/file/d/INLOCUIESTE_CU_ID-UL_TAU/view"
+    link: "fisiere/romana/Ion+Caracterizare.doc"
   },
 
   // ── MATEMATICĂ ───────────────────────────────────────────────
